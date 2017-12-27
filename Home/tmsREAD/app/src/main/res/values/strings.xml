@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">tmsREAD</string>
+    <string name="home_newArrivals">New Arrivals</string>
+    <string name="home_popularTitles">Popular Titles</string>
+    <string name="home_recommended">Recommended</string>
+    <string name="description_book">buuk</string>
+</resources>
