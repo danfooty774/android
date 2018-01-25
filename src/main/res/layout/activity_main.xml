@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.denfo.about.MainActivity">
+
+
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="382dp"
+        android:layout_height="649dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="6dp"
+        android:layout_marginLeft="8dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="161dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:contentDescription="@string/app_name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:srcCompat="@drawable/ggggggggggg" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About tmsREAD!
+
+
+
+
+                                                             tmsREAD! is Temasek Secondary School's library app for students to browse, check and loan available and on-loan books from the school library at their convenience through their supported mobile phones or non-profit efforts of numerous students from Temasek Secondary School and beyond, collectively known as AppRExp,over the initial span of 4 months. It has since been actively maintained to improve the user's experience.
+
+
+                                                                                                                        Our Vision
+
+
+
+
+                                                                                                                         The raison d’être for tmsREAD is to encourage reading which we deem is pivotal to succeed in the corporate world, in the 21st Century and to solve an existential problem of:
+                                                                           a. Books in the library are unbeknown to students
+
+                                                                           b. Books are hard to find in specific
+
+                                                                           c. Unable to find books that pique their interests
+
+                                                              Hence, with the aforementioned goal in mind, AppRExp wants to also allow Temasek Secondary School to stand out, allow TMS to be a reading school and to showcase the self-initiative side of TMS’ students.
+
+                                                                                                                        Collaborators
+
+                                                                                                                                                                                                                                               Director: Wei Yuxin
+
+                                                                                                                                                                       Assistant Directors: -Chen Wenlong
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                 -Mohammed Faris bin Hazrin
+                                                                                                                                                                                                                                        Android Engineers: -Lorenzo Castellano
+                                                                                                                                                                                                                                                           -Daniel Foo
+                                                                                                                         -Chen Wenlong
+                                                                                                                           -Clarence Tay
+                                                                                                                                                                           Website + Server Engineers:-Rifa Achrinza
+                                                 -Harshvardhan Manju Dalal
+                                                                                                                                                                         -Wei Yuxin
+                                                                                                                                                                         -Mohammed Faris bin Hazrin
+                                                                                                                                                                            -Chen Wenlong
+                                                                                                                                                                           iOS Engineers: -Ong Teng Wee
+                                                                                                                           -Wong Hong Ngai
+                                                                                                                                -Wei Yuxin
+                                                                                                                                                                                UI Designers: -Julius Bryan Renon Gambe
+                                                                                                                                                                                               -Kim Min hwan
+                                                                                                                                                                              Logistics: -Emmanuel Ng
+                                                                                                                                                                                       -Julius Bryan Renon Gambe
+                                                                                                                                                                           -Daniel Foo(HR provider)
+                                                                                                                                                    Photography: -Mohammed Faiz bin Hazrin
+
+                                                                                                                                                    Accessibility
+                                                                                                                                                                    We always strive for forging inclusive applications. As such, we have carefully made the tmsREAD! web application WCAG 2.1 Level AAA and WAIARIA compliant. This means that no person will struggle to access information or be left out. WCAG 2.1 Level AAA Compliance List:
+
+                                                                                                                                                                          - Perceivable:
+                                                                                                                                                                            - Time-based media
+                                                                                                                                                                            - Adaptable
+                                                                                                                                                                           - Operable:
+                                                                                                                                                                            - Keyboard Accessible
+                                                                                                                                                                                - Enough Time
+                                                                                                                                                                                        - Seizures
+                                                                                                                                                                                        - Pointer Accessible
+                                                                                                                                                                                       - Additional sensor inputs
+                                                                                                                                                                              - Understandable:
+                                                                                                                                                                                       - Readable
+                                                                                                                                                                                       - Predictable
+                                                                                                                                                                                       - Input Assistance
+                                                                                                                                                                                      - Robust:
+                                                                                                                                                                                        - Compatible
+                                                                                                                                                                                 - Conformance:
+                                                                                                                                                                                           - Conformance Requirements
+                                                                                                                                                                                               - Conformance Claims (Optional)
+                                                                                                                                                                                   - Statement of Partial Conformance -Third Party
+                                                                                                                                                                                           Content
+                                                                                                                                                                                       - Statement of Partial Conformance - Language
+                                                                                                                                                                                       WAI-ARIA Compliance List:
+                                                                                                                                                                                        - To be confirmed
+                                                                                                                                                                                        - To be confirmed
+
+                                                                                                                                                                 Compatibility
+
+                                                                                                                                                                       As part of our mission to create inclusive applications, we rigorously test against as many browser versions as possible. As a balance of compatibility and features, we have made the tmsREAD! web app either partially or fully compatible with these browser versions and up:
+
+                                                                                                                                                                                   Partially compatible Web Browsers:
+                                                                                                                                                                                    Web browsers that support basic features
+                                                                                                                                                                                     but may render the web page incorrectly.
+                                                                                                                                                                                        • Internet Explorer 7
+                                                                                                                                                                                        • Google Chrome 23
+                                                                                                                                                                                        • Mozilla Firefox 20
+                                                                                                                                                                                        • Opera 23
+
+                                                                                                                                                                       Fully compatible Web Browsers:
+                                                                                                                                                                                    Web browsers that support all features and
+                                                                                                                                                                                      renders the web page properly.
+                                                                                                                                                                                           • Google Chrome 23
+                                                                                                                                                                                           • Mozilla Firefox 20
+                                                                                                                                                                                           • Opera 23
+
+                                                                                                                                                      Privacy
+
+                                                                                                                                                           We believe that user privacy is always important and we take the necessary steps to ensure that the data is kept secured.
+                                                                                                                                                       Account Data
+                                                                                                                                                                We only collect data that is necessary for managing accounts and library inventory and will only use them as such. We will never give or sell your data to 3rd party  to do so or transfer the ownership or management of tmsREAD!.
+                                                                                                                                                      Analytical Data
+                                                                                                                                                            Any analytical data that we collect from the usage of the tmsREAD! web, iOS or Android app, or API are anonymised and are not personally identifiable.
+                                                                                                                                                              Data Retention
+                                                                                                                                                            When you delete your account, we will retain your data for 5 years as required by our main database - which our API connects to - and unlink any transactions from your account immediately. Data from our backup databases may not be deleted immediately and transactions will remain available but
+                                                                                                                                                             not no longer linked to any account.If you sign up with the same email address of the deleted account within 5 years, we will re-link the retained data to your account automatically. If you sign up with the same email address after 5 years, no data will be re-linked to the account.
+
+                                                                                                                                                           Security
+                                                                                                                                                             Security and privacy has been and will always be our top priority when developing our application. As such, we have done extensive research and follow the best practices when handling personal data.
+                                                                                                                                                      Credentials Security
+                                                                                                                                                             We do not store your password anywhere in our systems. Instead, it is kept only by Google and those whom you share it with.Furthermore, we store your unique access tokens (used to link with your IamTemasek Google account) on a separate database.This means that your credentials are kept securely through comparmentalisation and should a data breach occur, although unlikely, we will take efforts in revoking all affected access tokens as soon as possible,keeping your data safe.
+" />
+
+            <Button
+                android:id="@+id/butt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="School Song" />
+
+            <Button
+                android:id="@+id/butt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="School Creed" />
+
+            <Button
+                android:id="@+id/butt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Recollections" />
+
+            <Button
+                android:id="@+id/butt4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="School Cheer" />
+
+            <Button
+                android:id="@+id/butt5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Temasek's Light" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                app:srcCompat="@drawable/ffffffffffffffffff" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+</android.support.constraint.ConstraintLayout>
